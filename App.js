@@ -1,1 +1,1 @@
-// React Ludo game frontend UI placeholder
+// Sample placeholder for full App.js UI logic
