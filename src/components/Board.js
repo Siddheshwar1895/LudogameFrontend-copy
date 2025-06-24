@@ -1,0 +1,1 @@
+// Board UI component with 4 player zones and token placeholders
