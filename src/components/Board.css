@@ -1,0 +1,28 @@
+.board {
+  display: grid;
+  grid-template-areas:
+    "red red center center green green"
+    "red red center center green green"
+    "center center center center center center"
+    "center center center center center center"
+    "yellow yellow center center blue blue"
+    "yellow yellow center center blue blue";
+  gap: 4px;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
+.zone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.red { background-color: #e74c3c; grid-area: red; }
+.green { background-color: #27ae60; grid-area: green; }
+.yellow { background-color: #f1c40f; color: black; grid-area: yellow; }
+.blue { background-color: #2980b9; grid-area: blue; }
+.center { background-color: #bdc3c7; color: black; grid-area: center; }
