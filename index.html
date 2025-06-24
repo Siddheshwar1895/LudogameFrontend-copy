@@ -1,21 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ludo Game</title>
-  <style>
-    body {
-      background-image: url('final_board_image.png');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      margin: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1 style="text-align: center; color: white;">Welcome to Online Ludo Game</h1>
+  <div class="container">
+    <div class="header">
+      <h1>LUDO GAME</h1>
+    </div>
+
+    <div class="players top">
+      <span class="player">PLAYER 1</span>
+      <span class="player">PLAYER 2</span>
+    </div>
+
+    <div class="board">
+      <img src="ludo-board.jpg" alt="Ludo Board" />
+    </div>
+
+    <div class="players bottom">
+      <span class="player">PLAYER 3</span>
+      <span class="player">PLAYER 4</span>
+    </div>
+
+    <div class="bet-section">
+      <span class="bet-label">BET AMOUNT</span>
+      <span class="bet-amount">₹ 50</span>
+    </div>
+
+    <button class="roll-dice-btn">ROLL DICE</button>
+  </div>
 </body>
 </html>
